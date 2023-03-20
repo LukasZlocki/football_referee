@@ -23,6 +23,7 @@ class YellowCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.yellow,
       appBar: AppBar(
         title: const Text('Yellow Card here'),
       ),
@@ -46,6 +47,7 @@ class RedCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red,
       appBar: AppBar(
         title: const Text('Red Card here'),
       ),
@@ -172,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Match result2',
+              'Match result:',
             ),
             Text(
               '$_counterLeft : $_counterRight',
