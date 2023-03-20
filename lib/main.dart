@@ -181,7 +181,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: TextStyle(fontSize: 25),
             ),
             Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -213,17 +213,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       ]),
                 ]),
             Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   FloatingActionButton(
+                    backgroundColor: Colors.red,
                     onPressed: _showRedCard,
-                    tooltip: 'Decrement',
-                    child: Icon(Icons.add),
+                    tooltip: 'Red Card',
                   ),
                   FloatingActionButton(
+                    backgroundColor: Colors.yellow,
                     onPressed: _showYellowCard,
-                    tooltip: 'Decrement',
-                    child: Icon(Icons.add),
+                    tooltip: 'Yellow Card',
                   ),
                 ]),
           ],
